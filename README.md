@@ -18,7 +18,12 @@ cd scripts
 bash start.sh
 ```
 
-3. To test run BayesSuite
+3. To install R packages
+```
+Rscript setup.R
+```
+
+4. To test run BayesSuite
 ```
 python test.py
 ```
