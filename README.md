@@ -1,4 +1,4 @@
-![BayesSuite](https://raw.githubusercontent.com/Emma926/BayesSuite/master/bayessuite.png)
+![BayesSuite](https://raw.githubusercontent.com/Emma926/BayesSuite/master/bayessuite.png | width=100)
 
 # BayesSuite
 A Bayesian Inference Benchmark Suite
