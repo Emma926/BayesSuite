@@ -1,3 +1,5 @@
+![BayesSuite](bayesuite.png)
+
 # BayesSuite
 A Bayesian Inference Benchmark Suite
 
