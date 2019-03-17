@@ -26,11 +26,13 @@ if not os.path.isdir(os.path.join(root, 'BayesSuite')):
 for wl, path in wl_paths.iteritems():
     if os.path.isdir(os.path.join(root, 'BayesSuite', wl)):
         continue
+    print('Copying ' + wl)
     os.system('cp -r ' + os.path.join(root, path) + ' ' + os.path.join(root, 'BayesSuite', wl)) 
 
 wl = '9_survival'
 path = 'stan_examples/BPA/Ch.07'
 if not os.path.isdir(os.path.join(root, 'BayesSuite', '9_survival')):
+    print('Copying ' + wl)
     os.mkdir(os.path.join(root, 'BayesSuite', '9_survival'))
     os.system('cp ' + os.path.join(root, path, 'cjs_temp_raneff.data.R') + ' ' + os.path.join(root, 'BayesSuite', wl)) 
     os.system('cp ' + os.path.join(root, path, 'cjs_temp_raneff.stan') + ' ' + os.path.join(root, 'BayesSuite', wl)) 

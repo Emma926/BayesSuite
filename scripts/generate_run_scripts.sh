@@ -1,3 +1,4 @@
+echo "Generating run scripts..."
 echo "0_12cities"
 cd ../BayesSuite/0_12cities
 
@@ -74,6 +75,7 @@ sed -n '369,389 p' threshold-test.Rmd >> run.R
 echo "8_butterfly"
 cd ../8_butterfly
 sed -n '42,53 p' dorazio-et-al-knitr.Rmd > run.R
+sed -n '213,310 p' dorazio-et-al-knitr.Rmd >> run.R
 sed -n '354,357 p' dorazio-et-al-knitr.Rmd >> run.R
 
 echo "9_survival"
