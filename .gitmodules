@@ -1,3 +1,6 @@
 [submodule "stancon"]
 	path = stancon
 	url = git@github.com:stan-dev/stancon_talks
+[submodule "stan_examples"]
+	path = stan_examples
+	url = git@github.com:stan-dev/example-models.git
