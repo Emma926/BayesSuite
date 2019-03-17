@@ -71,5 +71,11 @@ sed -n '10,23 p' threshold-test.Rmd > run.R
 sed -n '155,163 p' threshold-test.Rmd >> run.R
 sed -n '369,389 p' threshold-test.Rmd >> run.R
 
-#cd ../8_butterfly
-#cd ../9_survival
+echo "8_butterfly"
+cd ../8_butterfly
+sed -n '42,53 p' dorazio-et-al-knitr.Rmd > run.R
+sed -n '354,357 p' dorazio-et-al-knitr.Rmd >> run.R
+
+echo "9_survival"
+cd ../9_survival
+cp 7.4.2_Random_time_effects.R run.R 
