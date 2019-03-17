@@ -19,7 +19,10 @@ wl_paths = {
 
 root = os.path.realpath('..')
 
+if not os.path.isdir(os.path.join(root, 'BayesSuite')):
+    os.mkdir(os.path.join(root, 'BayesSuite'))
+
 for wl, path in wl_paths.iteritems():
-    if os.path.isdir(root, 'BayesSuite', wl):
+    if os.path.isdir(os.path.join(root, 'BayesSuite', wl)):
         continue
     os.system('cp -r ' + os.path.join(root, path) + ' ' + os.path.join(root, 'BayesSuite', wl)) 
