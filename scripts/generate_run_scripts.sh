@@ -1,3 +1,4 @@
+echo "Generating run scripts..."
 echo "0_12cities"
 cd ../BayesSuite/0_12cities
 
