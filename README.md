@@ -3,11 +3,18 @@
 # BayesSuite
 A Bayesian Inference Benchmark Suite
 
-If you find BayesSuite useful, please cite our paper
 
+If you find BayesSuite useful, please cite our paper:
+
+```
 Yu Wang, Yuhao Zhu, Glenn G. Ko, Brandon Reagen, Gu-Yeon Wei, and David Brooks. “Demystifying
 Bayesian Inference Workloads.” International Symposium on Performance Analysis of Systems and
 Software (ISPASS), 2019.
+```
+
+The paper profiles the computational characteristics of BayesSuite using single-core and multi-core
+CPU. It also has a last level cache miss prediction model based on the model and the datasets.
+
 
 ## Workloads
 
@@ -15,6 +22,14 @@ Name     |        Model        |     Application
 -------- | ------------------- |----------------------------------------------
 12cities | Poisson Regression  | Does lowering speed limits save pedestrian lives?
 ad       | Logistic Regression | Advertising attribution in the movie industry
+ode      | Friberg-Karlsson Semi-Mechanistic  | Solving ordinary differential equations of non-linear systems
+memory   | Hierarchical Bayesian | Modeling memory retrieval in sentence comprehension
+votes    | Hierarchical Gaussian Processes | Forecasting presidential votes 
+tickets  | Logistic Regression | Do police officers alter the ticket writing to match departmental targets?
+disease  | Logistic Regression | Measuring the continually worsening progression of Alzheimer’s disease
+racial   | Hierarchical Bayesian | Testing for racial bias in vehicle searches by police
+butterfly| Hierarchical Bayesian | Estimating butterfly species richness and accumulation
+survival | Cormack-Jolly-Seber | Estimating animal survival probabilities
 
 ## Getting Started
 1. After git clone this repo, please run
