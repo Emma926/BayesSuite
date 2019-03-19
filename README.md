@@ -59,7 +59,7 @@ If getting publickey issues when running ``git submodule update``, you need to [
 
 ## Licensing
 All of the example models are copyrighted by their author(s). The scripts in this repository is
-under Apache Liense 2.0.
+under Apache License 2.0.
 
 Yu (Emma) Wang
 3/14/2019
