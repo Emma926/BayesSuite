@@ -49,11 +49,6 @@ bash start.sh
 Rscript setup.R
 ```
 
-4. To test run BayesSuite
-```
-python test.py
-```
-
 ## Trouble Shooting
 If getting publickey issues when running ``git submodule update``, you need to [generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [add the new SSH key to your GitHub account](https://help.github.com/en/enterprise/2.16/user/articles/adding-a-new-ssh-key-to-your-github-account).
 
