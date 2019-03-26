@@ -53,7 +53,7 @@ Rscript setup.R
 If getting publickey issues when running ``git submodule update``, you need to [generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [add the new SSH key to your GitHub account](https://help.github.com/en/enterprise/2.16/user/articles/adding-a-new-ssh-key-to-your-github-account).
 
 ## Licensing
-All of the example models are copyrighted by their author(s). The scripts in this repository is
+All of the example models are copyrighted by their author(s). The scripts in this repository are
 under Apache License 2.0.
 
 Yu (Emma) Wang
