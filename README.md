@@ -4,12 +4,23 @@
 A Bayesian Inference Benchmark Suite
 
 
-If you find BayesSuite useful, please cite our paper:
+If you find BayesSuite useful, please cite [our paper](https://yuemmawang.github.io/publications/wang-ispass2019.pdf):
 
 ```
-Yu Wang, Yuhao Zhu, Glenn G. Ko, Brandon Reagen, Gu-Yeon Wei, and David Brooks. “Demystifying
-Bayesian Inference Workloads.” International Symposium on Performance Analysis of Systems and
-Software (ISPASS), 2019.
+Yu Wang, Yuhao Zhu, Glenn G. Ko, Brandon Reagen, Gu-Yeon Wei, and David Brooks.
+“Demystifying Bayesian Inference Workloads.” International Symposium on 
+Performance Analysis of Systems and Software (ISPASS), 2019.
+```
+
+```
+@inproceedings{wang2019demystifying,
+  title={Demystifying Bayesian Inference Workloads},
+  author={Wang, Yu Emma and Zhu, Yuhao and Ko, Glenn G and Reagen, Brandon and Wei, Gu-Yeon and Brooks, David},
+  booktitle={2019 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},
+  pages={177--189},
+  year={2019},
+  organization={IEEE}
+}
 ```
 
 The paper profiles the computational characteristics of BayesSuite using single-core and multi-core
